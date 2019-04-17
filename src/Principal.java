@@ -15,38 +15,55 @@ public class Principal {
             
     public static void main (String [] args) {
         
-        Carro carro = new Carro();
+        Carro carro1 = new Carro();
         
         Scanner scan = new Scanner(System.in);
         
         System.out.print("Nome: ");
-        carro.nome = scan.next();
+        carro1.nome = scan.next();
         
         System.out.print("Marca: ");
-        carro.marca = scan.next();
+        carro1.marca = scan.next();
         
         System.out.print("Cor: ");
-        carro.cor = scan.next();
+        carro1.cor = scan.next();
         
         System.out.print("Fabricação: ");
-        carro.fabricação = scan.next();
+        carro1.fabricação = scan.next();
         
         System.out.print("Largura: ");
-        carro.largura = scan.next();
+        carro1.largura = scan.next();
         
         System.out.print("Peso: ");
-        carro.peso = scan.next();
+        carro1.peso = scan.next();
         
-        System.out.println("Nome:" + carro.nome);
-        System.out.println("Marca:" + carro.marca);
-        System.out.println("Cor:" + carro.cor);
-        System.out.println("Fabricação:" + carro.fabricação);
-        System.out.println("Largura:" + carro.largura);
-        System.out.println("Peso:" + carro.peso);
+        System.out.println("Nome:" + carro1.nome);
+        System.out.println("Marca:" + carro1.marca);
+        System.out.println("Cor:" + carro1.cor);
+        System.out.println("Fabricação:" + carro1.fabricação);
+        System.out.println("Largura:" + carro1.largura);
+        System.out.println("Peso:" + carro1.peso);
         
         
         Carro carro2 = new Carro();
 
+        System.out.print("Nome: ");
+        carro2.nome = scan.next();
+        
+        System.out.print("Marca: ");
+        carro2.marca = scan.next();
+        
+        System.out.print("Cor: ");
+        carro2.cor = scan.next();
+        
+        System.out.print("Fabricação: ");
+        carro2.fabricação = scan.next();
+        
+        System.out.print("Largura: ");
+        carro2.largura = scan.next();
+        
+        System.out.print("Peso: ");
+        carro2.peso = scan.next();
         
         System.out.println("Nome:" + carro2.nome);
         System.out.println("Marca:" + carro2.marca);
